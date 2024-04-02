@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 0 10px;
+}
+
+:root{
+    --color--principal: #FD853A;
+    --color--principal_light: #FFEAD5;
+    --color--gray: #9E9D9D;
+    --color--gray_20: #686868;
+    --color--light: #FCFCFD;
+    --color--dark: #171717;
+
+    --fonts--sansSerif: sans-serif;
+    --fonts--roboto: roboto;
+}
