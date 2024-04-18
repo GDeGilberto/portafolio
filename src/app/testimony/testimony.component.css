@@ -1,0 +1,45 @@
+.testimony{
+    margin-bottom: 40px;
+}
+.testimony h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimony > p{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+
+.testimony__card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: var(--color--principal_light);
+}
+
+.testimony__card p{
+    color: var(--color--gray-20);
+}
+
+.testimony__ranking i{
+
+}
+
+.testimony__people{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.testimony__people > img{
+    border-radius: 50%;
+    min-width: 40px;
+    width: 60px;
+    max-width: 2000px;
+    border: 1px solid var(--color--gray);
+}
